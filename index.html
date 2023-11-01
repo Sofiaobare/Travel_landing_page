@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel web</title>
+    <link rel="stylesheet" href="style.css">
+    <!--bootsrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+     crossorigin="anonymous">
+     <!--font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--google fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,500;1,700;1,800;1,900&display=swap"
+ rel="stylesheet">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg " id="navbar">
+        <div class="container">
+            <a  class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+
+            <button class="navabr-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar" >
+                <ul class="navbar-nav me-auto" >
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#">about us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">contact us</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#">blog</a></li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text"  placeholder="search">
+                </form>
+                <button class="btn btn-primary">
+                    search
+                </button>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!--home section-->
+     <div class="home">
+        <div class="content">
+            <h5>Welcome world</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 necessitatibus sit odit dolorum voluptateue soluta
+            </p>
+            <a href="#book">Book place</a>
+               
+        </div>
+
+
+
+     </div>
+
+
+     <!--book start-->
+     <div class="book" id="book">
+        <div class="container">
+            <div class="main-text">
+                <h1><sapan>B</sapan>ook</B></h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/london7.jpg">
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 py-3 py-md-0">
+                     <form action="#">
+                         <input type="text" class="form-control"  placeholder="where" required>
+                         <input type="text" class="form-control"  placeholder=" How many" required>
+                         <input type="text" class="form-control"  placeholder="arrivals" required>
+                         <input type="text" class="form-control"  placeholder="leaving" required>
+                        
+                        
+                          <textarea class="form-control" rows="5"  name="text"  placeholder="enter Your Name  and Details"></textarea>
+                          <input type="submit"  class="submit" value="book now"  required>
+
+
+
+           </form>
+          
+            
+                    
+          </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+     </div>
+
+
+
+     <!--packages start-->
+
+     <section class="packages" id="packages">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>p</span>ackeges</h1>
+
+             </div>
+             <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/london7.jpg"  alt="...">
+                        <div class="card-body">
+                            <h3>United kingdom</h3>
+                        
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          </div>
+                          <h6>price <strong>$500</strong></h6>
+
+                          <a href="book" >Go somewhere</a>
+                        </div>
+                      </div>
+                      
+
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/italy4.jpg"  alt="...">
+                        <div class="card-body">
+                            <h3>Italy</h3>
+                        
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          </div>
+                          <h6>price <strong>$500</strong></h6>
+
+                          <a href="book" >Go somewhere</a>
+                        </div>
+                      </div>
+                      
+
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/italy6.jpg"  alt="...">
+                        <div class="card-body">
+                            <h3>spain</h3>
+                        
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          </div>
+                          <h6>price <strong>$500</strong></h6>
+
+                          <a href="book" >Go somewhere</a>
+                        </div>
+                      </div>
+                      
+
+                </div>
+
+             </div>
+             <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/italy6.jpg"  alt="...">
+                        <div class="card-body">
+                            <h3>United kingdom</h3>
+                        
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          </div>
+                          <h6>price <strong>$500</strong></h6>
+
+                          <a href="book" >Go somewhere</a>
+                        </div>
+                      </div>
+                      
+
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/italy2.jpg"  alt="...">
+                        <div class="card-body">
+                            <h3>italy</h3>
+                        
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          </div>
+                          <h6>price <strong>$500</strong></h6>
+
+                          <a href="book" >Go somewhere</a>
+                        </div>
+                      </div>
+                      
+
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/london5.jpg" alt="...">
+                        <div class="card-body">
+                            <h3>United kingdom</h3>
+                        
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          </div>
+                          <h6>price <strong>$500</strong></h6>
+
+                          <a href="book" >Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+
+        </div>
+
+      
+                    
+        </section>
+
+        <!--services-->
+
+        <div class="services" id="services">
+            <div class="container">
+                <div class="main-txt">
+                    <h1><span>S</span>ervices</h1>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                          <i class="fas fa-hotel"></i>
+                          <div class="card-body">
+                            <h3>Affordable Hotel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                          <i class="fas fa-hotel"></i>
+                          <div class="card-body">
+                            <h3>Affordable Hotel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                          <i class="fas fa-hotel"></i>
+                          <div class="card-body">
+                            <h3>Affordable Hotel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+                          </div>
+                        </div>
+                      </div>
+                
+                
+                
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                          <i class="fas fa-hotel"></i>
+                          <div class="card-body">
+                            <h3>Affordable Hotel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                          <i class="fas fa-hotel"></i>
+                          <div class="card-body">
+                            <h3>Affordable Hotel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                          <i class="fas fa-hotel"></i>
+                          <div class="card-body">
+                            <h3>Affordable Hotel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+                          </div>
+                        </div>
+                      </div>
+                
+                
+                
+                </div>
+
+
+
+
+
+
+
+
+                </div>
+                <section class="gallary" id="gallary">
+                    <div class="container">
+                      <div class="main-txt">
+                        <h1><span>G</span>allary</h1>
+                      </div>
+                      <div class="row" style="margin-top: 30px;">
+                        <div class="col-md-4 py-3 py-md-0">
+                          <div class="card">
+                            <img src="./images/italy6.jpg" alt="" height="230px">
+                          </div>
+                        </div>
+                        <div class="col-md-4 py-3 py-md-0">
+                          <div class="card">
+                            <img src="./images/italy4.jpg" alt="" height="230px">
+                          </div>
+                        </div>
+                        <div class="col-md-4 py-3 py-md-0">
+                          <div class="card">
+                            <img src="./images/london8.jpg" alt="" height="230px">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row" style="margin-top: 30px;">
+                        <div class="col-md-4 py-3 py-md-0">
+                          <div class="card">
+                            <img src="./images/london8.jpg" alt="" height="230px">
+                          </div>
+                        </div>
+                        <div class="col-md-4 py-3 py-md-0">
+                          <div class="card">
+                            <img src="./images/london3.jpg" alt="" height="230px">
+                          </div>
+                        </div>
+                        <div class="col-md-4 py-3 py-md-0">
+                          <div class="card">
+                            <img src="./images/turkey1.jpeg" alt="" height="230px">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="about" id="about">
+                    <div class="container">
+                      <div class="main-txt">
+                        <h1>About <span>Us</span></h1>
+                      </div>
+                      <div class="row" style="margin-top: 50px;">
+                        <div class="col-md-6 py-3 py-md-0">
+                          <div class="card">
+                            <img src="./images/london1.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="col-md-6 py-3 py-md-0">
+                          <h2>How Travel Agency Work</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis dolorem, numquam earum at nam beatae voluptate natus consectetur facere, saepe cupiditate ut exercitationem deserunt, facilis quam perspiciatis autem iure illo harum minima. Quas, vitae aperiam laudantium alias asperiores nulla rerum, nihil eveniet perferendis sint illum accusamus officiis aliquam nam.</p>
+                          <button id="about-btn">Read More...</button>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <footer id="footer">
+                    <h1><span>T</span>ravel</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
+                    <div class="social-links">
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-youtube"></i>
+                      <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                    <div class="credit">
+                      <p>Designed By <a href="#">sofia</a></p>
+                    </div>
+                    <div class="copyright">
+                      <p>&copy sofia codings. All Rights Reserved</p>
+                    </div>
+                  </footer>
+
+
+
+
+
+
+
+
+
+
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"></script>
+</body>
+</html>
